@@ -5,10 +5,10 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
-pylint = "*"
 
 [packages]
 django = "==3.0.5"
+guincorn = "==19.9.0"
 
 [requires]
 python_version = "3.8"
